@@ -1,0 +1,29 @@
+{
+	"name"             : "gustavo/generic-backend",
+	"description"      : "Sistema génerico de APIs em Phalcon",
+	"version"          : "1.0.0",
+	"homepage"         : "http://api.generic-backend.localhost",
+	"type"             : "project",
+	"minimum-stability": "dev",
+	"prefer-stable"    : true,
+	"license"          : "proprietary",
+	"config"           : {
+		"vendor-dir" : "app/library",
+		"disable-tls": true
+	},
+	"authors"          : [
+		{
+			"name" : "GustavoSMafra",
+			"email": "mafraguh@gmail.com",
+			"role" : "Developer"
+		}
+	],
+	"require"          : {
+		"php"                  : ">=8.1",
+		"ext-json"             : "*",
+		"ext-pdo"              : "*",
+		"ext-pdo_mysql"        : "*",
+		"ext-openssl"          : "*",
+		"ext-phalcon"          : "*"
+	}
+}
